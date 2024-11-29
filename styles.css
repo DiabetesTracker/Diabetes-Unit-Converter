@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    background-color: #f2f6fc;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Logo Container - Centering the Logo */
+.logo-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the logo */
+    align-items: center;     /* Vertically centers the logo */
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+    width: 140px;  /* Width of the circle */
+    height: 140px; /* Height of the circle */
+    margin: 0 auto; /* Centers the circle itself in the card */
+}
+
+/* Logo - Ensuring it's centered and fits inside the circle */
+.logo {
+    width: 120px; /* Size of the logo */
+    height: 120px; /* Size of the logo */
+    object-fit: cover; /* Ensures the image is not stretched */
+    border-radius: 50%; /* Ensures the image is circular */
+}
+
+/* Card */
+.card {
+    max-width: 550px;
+    margin: auto;
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Playstore Logo */
+.playstore-logo {
+    width: 160px;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
+    margin-top: 30px;
+    color: #6c757d;
+}
+
+/* Buttons */
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Reset Button Red Color */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
